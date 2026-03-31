@@ -59,7 +59,8 @@ S-Pen support is unique and useful
 #   sentiment: Annotated[Literal["pos", "neg"], "Return sentiment of the review either negative, positive or neutral"]
 #   pros: Annotated[Optional[list[str]], "Write down all the pros inside a list"]
 #   cons: Annotated[Optional[list[str]], "Write down all the cons inside a list"]
-#   name: Annotated[Optional[str], "Write the name of the reviewer"]
+#   name: Annotated[Optional[str]], "Write the name of the reviewer"]
+
 
 result = model.invoke(prompt)
 

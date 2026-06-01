@@ -1,5 +1,5 @@
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCzu9nyTUOrinvkAr5VXXXXXXWUPNFjh5c"
+os.environ["GOOGLE_API_KEY"] = ""
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.tools import DuckDuckGoSearchRun
